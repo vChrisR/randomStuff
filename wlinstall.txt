@@ -2,7 +2,7 @@
 
 #Create group and user
 /usr/sbin/groupadd $wlgroup -g $wlgroup_gid
-/usr/bin/useradd $wluser -g $wlgroup_gid -u $wluser_gid
+/usr/bin/useradd $wluser -g $wlgroup_gid -u $wluser_uid
 
 #Set TCP and UDP parameters
 /usr/sbin/ndd -set /dev/tcp tcp_time_wait_interval 30000
