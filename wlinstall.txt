@@ -1,6 +1,12 @@
+#!/bin/bash
+
+#Create group and user
+/usr/sbin/groupadd $wlgroup -g $wlgroup_gid
+/usr/bin/useradd $wluser -g $wlgroup_gid -u $wluser_gid
+
+#Set TCP and UDP parameters
 /usr/sbin/ndd -set /dev/tcp tcp_time_wait_interval 30000
 /usr/sbin/ndd -set /dev/tcp tcp_ip_abort_interval 60000
-
 /usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q 102400
 /usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q0 102400
 /usr/sbin/ndd -set /dev/tcp tcp_max_buf 4194304
@@ -10,6 +16,24 @@
 /usr/sbin/ndd -set /dev/tcp tcp_keepalive_interval 15000
 /usr/sbin/ndd -set /dev/tcp tcp_fin_wait_2_flush_interval 57000
 /usr/sbin/ndd -set /dev/tcp tcp_slow_start_initial 4
-
 /usr/sbin/ndd -set /dev/udp udp_xmit_hiwat 65536
 /usr/sbin/ndd -set /dev/udp udp_recv_hiwat 65536
+
+#set limits
+echo $wluser soft nofile        50240 >> /etc/security/limits.conf
+echo $wluser hard nofile        600636 >> /etc/security/limits.conf
+echo $wluser soft nproc         36000 >> /etc/security/limits.conf
+echo $wluser hard nproc         65000  >> /etc/security/limits.conf
+echo $wluser soft stack         40480 >> /etc/security/limits.conf
+echo $wluser hard stack         65536 >> /etc/security/limits.conf
+
+#create response file
+cat <<EOF> $SILENT_RSP
+[ENGINE]
+Response File Version=1.0.0.0.0
+[GENERIC]
+
+
+#run WL installer
+cd /usr/bin
+./java -jar $wlinstaller -silent -responseFile $wlresponse_file
