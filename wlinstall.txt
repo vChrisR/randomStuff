@@ -1,0 +1,15 @@
+/usr/sbin/ndd -set /dev/tcp tcp_time_wait_interval 30000
+/usr/sbin/ndd -set /dev/tcp tcp_ip_abort_interval 60000
+
+/usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q 102400
+/usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q0 102400
+/usr/sbin/ndd -set /dev/tcp tcp_max_buf 4194304
+/usr/sbin/ndd -set /dev/tcp tcp_cwnd_max 2097152
+/usr/sbin/ndd -set /dev/tcp tcp_recv_hiwat 400000
+/usr/sbin/ndd -set /dev/tcp tcp_xmit_hiwat 400000
+/usr/sbin/ndd -set /dev/tcp tcp_keepalive_interval 15000
+/usr/sbin/ndd -set /dev/tcp tcp_fin_wait_2_flush_interval 57000
+/usr/sbin/ndd -set /dev/tcp tcp_slow_start_initial 4
+
+/usr/sbin/ndd -set /dev/udp udp_xmit_hiwat 65536
+/usr/sbin/ndd -set /dev/udp udp_recv_hiwat 65536
