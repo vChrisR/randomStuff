@@ -78,8 +78,6 @@ EOF
 
 #run WL installer
 su - $wluser <<EOF
-
-#create install folder
 mkdir -p $INSTALLDIR
 /opt/jdk1.7.0_79/bin/java -jar $wlinstaller -silent -responseFile $SILENT_RSP -invPtrLoc $INVPTR
 EOF
