@@ -38,7 +38,7 @@ mkfs.ext4 /dev/$vgname/$lvname
 mkdir -p $mountpoint
 
 # Mount file systems
-echo /dev/$vgname/$lvname #mountpoint ext4 defaults 1 2 >> /etc/fstab
+echo /dev/$vgname/$lvname $mountpoint ext4 defaults 1 2 >> /etc/fstab
 mount -a
 
 # Change owner
