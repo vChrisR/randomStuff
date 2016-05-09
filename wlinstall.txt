@@ -1,6 +1,8 @@
 #!/bin/bash
 
 INSTALLDIR="/weblogic/app/wls12c"
+INVPTR="/etc/oraInst.loc"
+SILENT_RSP="/tmp/silent.rsp"
 
 #Create group and user
 /usr/sbin/groupadd $wlgroup -g $wlgroup_gid
@@ -36,16 +38,13 @@ chown root:$wlgroup /etc/oraInst
 chmod g+rwx /etc/oraInst
 
 #Create oracle inventory pointer file
-INVPTR="/etc/oraInst.loc"
 cat <<EOF> $INVPTR
 inventory_loc=/etc/oraInst
 inst_group=$wlgroup
 EOF
 
 #set permissions on weblogic dir
-chown $wlsuser:$wlsgroup /weblogic
-
-SILENT_RSP=/tmp/silent.rsp
+#chown $wlsuser:$wlsgroup /weblogic
 
 #create response file
 cat <<EOF> $SILENT_RSP
