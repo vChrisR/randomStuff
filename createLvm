@@ -1,10 +1,13 @@
 
 #!/bin/bash
 
+#rescan disks, just to be sure we got them all
 echo "- - -" > /sys/class/scsi_host/host0/scan
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/vmware/bin:$PATH
 export HOME=/root
+
+DISKPATHS=""
 
 # Partition all extra disks and create physical volumes
 for DISK in $(lsblk | grep -i disk | awk 'NR > 1 {print $1}')
@@ -20,21 +23,24 @@ t
 8e
 w
 EOF
-     pvcreate /dev/${DISK}1
+     DISKPATH = /dev/${DISK}1
+     pvcreate $DISKPATH
+     DISKPATHS="$DISKPATHS $DISKPATH
  done
 
-# Create logical volumes for Oracle
-vgcreate vg_app /dev/sdb1
-lvcreate -l 100%FREE -n lv_app vg_app
+# Create vg
+vgcreate $vgname $DISKPATHS
+#create LV
+lvcreate -l 100%FREE -n $lvname $vgname
 
 # Create file systems
-mkfs.ext4 /dev/vg_app/lv_app
-mkdir -p /app
+mkfs.ext4 /dev/$vgname/$lvname
+mkdir -p $mountpoint
 
 # Mount file systems
-echo /dev/vg_app/lv_app /app ext4 defaults 1 2 >> /etc/fstab
+echo /dev/$vgname/$lvname #mountpoint ext4 defaults 1 2 >> /etc/fstab
 mount -a
 
-# Change owner to oracle user
-chown -R oracle:oinstall  /app
-chmod -R 775 /app
+# Change owner
+chown -R $owner:$group  $mountpoint
+chmod -R 775 $mountpoint
