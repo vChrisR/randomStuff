@@ -37,7 +37,7 @@ Response File Version=1.0.0.0.0
 [GENERIC]
 
 #The oracle home location. This can be an existing Oracle Home or a new Oracle Home
-ORACLE_HOME=/webtest/app/testwls12c/Oracle_Home
+ORACLE_HOME=$oracle_home
 
 #Set this variable value to the Installation Type selected. e.g. WebLogic Server, Coherence, Complete with Examples.
 INSTALL_TYPE=WebLogic Server
