@@ -1,6 +1,8 @@
 
 #!/bin/bash
 
+echo "- - -" > /sys/class/scsi_host/host0/scan
+
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/vmware/bin:$PATH
 export HOME=/root
 
