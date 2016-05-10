@@ -1,38 +1,27 @@
 #!/bin/bash
 
-INSTALLDIR="/weblogic/app/wls12c"
+
+INSTALLDIR="/weblogic/app/$wldir"
 INVPTR="/etc/oraInst.loc"
 SILENT_RSP="/tmp/silent.rsp"
 
 #Create group and user
+echo "Creating group: $wlgroup with gid: $wlgroup_gid"
 /usr/sbin/groupadd $wlgroup -g $wlgroup_gid
+echo "Creating user: $wluser with uid: $wluser_uid"
 /usr/sbin/useradd $wluser -g $wlgroup_gid -u $wluser_uid
 
-#Set TCP and UDP parameters
-
-#/usr/sbin/ndd -set /dev/tcp tcp_time_wait_interval 30000
-#/usr/sbin/ndd -set /dev/tcp tcp_ip_abort_interval 60000
-#/usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q 102400
-#/usr/sbin/ndd -set /dev/tcp tcp_conn_req_max_q0 102400
-#/usr/sbin/ndd -set /dev/tcp tcp_max_buf 4194304
-#/usr/sbin/ndd -set /dev/tcp tcp_cwnd_max 2097152
-#/usr/sbin/ndd -set /dev/tcp tcp_recv_hiwat 400000
-#/usr/sbin/ndd -set /dev/tcp tcp_xmit_hiwat 400000
-#/usr/sbin/ndd -set /dev/tcp tcp_keepalive_interval 15000
-#/usr/sbin/ndd -set /dev/tcp tcp_fin_wait_2_flush_interval 57000
-#/usr/sbin/ndd -set /dev/tcp tcp_slow_start_initial 4
-#/usr/sbin/ndd -set /dev/udp udp_xmit_hiwat 65536
-#/usr/sbin/ndd -set /dev/udp udp_recv_hiwat 65536
-
 #set limits
-#echo $wluser soft nofile        50240 >> /etc/security/limits.conf
-#echo $wluser hard nofile        600636 >> /etc/security/limits.conf
-#echo $wluser soft nproc         36000 >> /etc/security/limits.conf
-#echo $wluser hard nproc         65000  >> /etc/security/limits.conf
-#echo $wluser soft stack         40480 >> /etc/security/limits.conf
-#echo $wluser hard stack         65536 >> /etc/security/limits.conf
+echo "Setting limits..."
+echo $wluser soft nofile        50240 >> /etc/security/limits.conf
+echo $wluser hard nofile        600636 >> /etc/security/limits.conf
+echo $wluser soft nproc         36000 >> /etc/security/limits.conf
+echo $wluser hard nproc         65000  >> /etc/security/limits.conf
+echo $wluser soft stack         40480 >> /etc/security/limits.conf
+echo $wluser hard stack         65536 >> /etc/security/limits.conf
 
 #create ora inventory directory
+echo "creating ora inv"
 mkdir /etc/oraInst
 chown root:$wlgroup /etc/oraInst
 chmod g+rwx /etc/oraInst
@@ -44,9 +33,11 @@ inst_group=$wlgroup
 EOF
 
 #set permissions on weblogic dir
-#chown $wlsuser:$wlsgroup /weblogic
+echo "Setting permissions on /weblogic"
+chown $wluser:$wlgroup /weblogic
 
 #create response file
+echo "Creating response file"
 cat <<EOF> $SILENT_RSP
 [ENGINE]
 #DO NOT CHANGE THIS.
@@ -77,6 +68,7 @@ COLLECTOR_SUPPORTHUB_URL=
 EOF
 
 #run WL installer
+echo "running installer..."
 su - $wluser <<EOF
 mkdir -p $INSTALLDIR
 /opt/jdk1.7.0_79/bin/java -jar $wlinstaller -silent -responseFile $SILENT_RSP -invPtrLoc $INVPTR
