@@ -1,0 +1,229 @@
+Wed May 18 17:29:21 GST 2016 Looking for agent properties file...
+Wed May 18 17:29:21 GST 2016 Waiting for appd.properties from guest customization...
+Wed May 18 17:29:21 GST 2016 WAIT_COUNTER is 10, WAIT_LIMIT is 600
+Wed May 18 17:29:21 GST 2016 sleep 10
+Wed May 18 17:29:31 GST 2016 Waiting for appd.properties from guest customization...
+Wed May 18 17:29:31 GST 2016 WAIT_COUNTER is 20, WAIT_LIMIT is 600
+Wed May 18 17:29:31 GST 2016 sleep 10
+Wed May 18 17:29:41 GST 2016 Waiting for appd.properties from guest customization...
+Wed May 18 17:29:41 GST 2016 WAIT_COUNTER is 30, WAIT_LIMIT is 600
+Wed May 18 17:29:41 GST 2016 sleep 10
+Wed May 18 17:29:51 GST 2016 Waiting for appd.properties from guest customization...
+Wed May 18 17:29:51 GST 2016 WAIT_COUNTER is 40, WAIT_LIMIT is 600
+Wed May 18 17:29:51 GST 2016 sleep 10
+Wed May 18 17:30:01 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:01 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:01 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:01 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:30:11 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:11 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:11 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:11 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:30:21 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:21 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:21 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:21 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:30:31 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:31 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:31 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:31 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:30:41 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:41 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:41 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:41 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:30:51 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:30:51 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:30:51 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:30:51 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:01 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:01 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:01 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:01 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:11 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:11 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:11 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:11 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:21 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:21 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:21 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:21 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:31 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:31 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:31 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:31 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:41 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:41 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:41 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:41 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:31:51 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:31:51 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:31:51 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:31:51 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:01 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:01 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:01 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:01 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:11 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:11 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:11 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:11 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:21 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:21 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:21 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:21 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:31 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:31 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:31 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:31 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:41 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:41 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:41 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:41 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:32:51 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:32:51 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:32:51 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:32:51 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:01 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:33:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:33:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:33:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:33:52 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:02 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:34:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:34:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:34:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:34:52 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:02 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:35:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:35:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:35:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:35:52 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:02 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:36:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:36:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:36:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:36:52 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:02 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:37:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:37:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:37:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:37:52 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:02 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:02 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:02 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:02 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:12 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:12 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:12 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:12 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:22 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:22 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:22 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:22 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:32 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:32 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:32 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:32 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:42 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:42 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:42 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:42 GST 2016 System did not reboot after gugent ran.
+Wed May 18 17:38:52 GST 2016 GUGENT_LASTBOOT file found.
+Wed May 18 17:38:52 GST 2016 LASTBOOT_TIME: system boot 2016-05-18 17:29
+Wed May 18 17:38:52 GST 2016 GUGENT_LASTBOOT: system boot 2016-05-18 17:29
+Wed May 18 17:38:52 GST 2016 System did not reboot after gugent ran.
