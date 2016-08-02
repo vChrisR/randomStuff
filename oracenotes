@@ -1,0 +1,7 @@
+node1PublicIpAddress=10.37.167.134 node2PublicIpAddress=10.37.167.137 node1Name=AU2402 node2Name=AU2401 node1PrivateIpAddress=10.37.196.17 node2PrivateIpAddress=10.37.196.20 domain=etisalat.corp.ae vip1=10.37.167.139 vip2=10.37.167.140 scan1=10.37.167.125 scan2=10.37.167.131 scan3=10.37.167.132 clusterName=tstcls node=AU2401 gateway=10.37.167.1 clusterName=tstcls scna_host=tstcls-scan scanport=50000 networkInterfaceList1=10.37.167.0 networkInterfaceList2=10.37.196.0 dbName=tstdb db_instance1=tstdb01 db_instance2=tstdb02 /bin/bash -c "/u01/scripts/launcher first"
+
+
+
+/bin/bash -c "/u01/scripts/launcher all		second machine
+/bin/bash -c "/u01/scripts/launcher all		primary machine
+/bin/bash -c "/u01/scripts/launcher first	primary
